@@ -1,0 +1,48 @@
+Below are our suggested configuration settings for Qt Creator. You are not required to adopt these settings, but we recommend them for a more pleasant experience.
+
+Access the preferences/settings for Qt Creator from the top menu bar:
+
+on Mac, menu item is Qt Creator -> Preferences...
+on Windows, menu item is Edit -> Preferences...
+on Linux, menu item is Tools -> Options...
+Build & Run pane
+On General tab:
+ Save all files before build
+
+Check this box to automatically save your code files before compiling or running the project.
+
+Stop applications before building = All
+
+Choose All to end the running program when re-building.
+
+On Compile Output tab:
+ Open Compile Output when building
+
+Check this box to display information about the build process in the bottom pane of the Qt window.
+
+On Application Output tab:
+ Clear old output on a new run
+
+Check this box to clear previous output when re-running.
+
+Debugger pane
+ Debugger font size follows main editor
+
+Check this box to have your debugger font size match the font size of the text editor.
+
+ Switch to previous mode on debugger exit
+
+Check this box to close unneeded debugger panes when the debugger is finished running.
+
+Disable style analyzer
+Qt Creator uses a code analyzer to check your code for stylistic issues and conformance to industry standard "best practices". While some of this guidance might be valuable, the default settings are too nitpicky and the error messages are alarmist and obtuse. We think students are best served by disabling this feature altogether to eliminate the unhelpful chatter. When the analyzer is disabled, your code will still get proper highlights for build warnings and errors, but this removes all the squawking about stylistic quibbles.
+
+ Analyze open files (on Analyzer pane)
+
+Make sure this checkbox is unchecked.
+
+ Use clangd (on C++ pane)
+
+Make sure this checkbox is unchecked.
+
+Click Ok to save your settings.
