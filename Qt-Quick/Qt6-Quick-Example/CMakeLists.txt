@@ -31,6 +31,8 @@ qt_add_qml_module(appQt6-Quick-Example
     Assets/Icons/Jukebox.ico
 
     Assets/Videos/Free_Test_Data_5MB_AVI.avi
+
+    Assets/Audio/test.mp4
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
